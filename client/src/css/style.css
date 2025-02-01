@@ -1,0 +1,143 @@
+h1{
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header
+{
+    padding: 10px;
+    text-align: right;
+    background-color: rgb(129, 106, 106);
+    font-size: large;
+}
+#nav{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.space 
+{
+    margin-left: 20px;
+}
+
+#footer
+{
+    padding: 40px;
+    background-color: rgb(129, 106, 106);
+    color: white;
+}
+
+#adminHeader
+{
+    height: 50px;
+    color: black;
+    
+    background-color:  rgb(129, 106, 106);
+   
+}
+
+#adminData
+{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+#adminMenu
+{
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 14, 14);
+
+}
+#adminContent
+{
+    padding-left: 30px;
+    width:80%;
+   color: rgb(129, 106, 106)
+}
+
+.menucolor
+{
+    color: rgb(146, 94, 94);
+}
+
+#carddata
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    
+    flex-wrap:wrap ;
+}
+
+
+#headerPart
+{
+    position:sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#proDetail
+{
+    /* display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-right: 40px; */
+
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 50px;
+   
+     box-shadow: 0px,5px,4px,8px;  
+    
+}
+#b{
+   background-color: black;
+}
+#proImage
+{
+    width: 100px;
+    height: 400px;
+    margin-right: 30px;
+}
+
+#proData
+{
+    width: 50%;
+}
+
+#shoppage
+{
+    display: flex;
+    justify-content: space-between;
+}
+#shopMenu
+{
+    width: 20%;
+    padding: 30px;
+}
+#shopData
+{
+    width: 80%;
+}
+
+#payPage
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#payForm
+{
+    width: 50%;
+}
+#payMethod
+{
+    width: 50%;
+}
